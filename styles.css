@@ -1,0 +1,60 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.box {
+
+    background-color:aquamarine;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+    
+
+}
+
+.box:hover {
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 2900px) {
+
+    .box {
+        margin-right: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 2000px) {
+
+    .box {
+        margin-right: 400px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1600px) {
+ 
+    .box {
+        margin-right: 300px;
+    }
+
+  }
+
+  @media only screen and (max-width: 1272px) {
+ 
+    .box {
+        margin-right: 200px;
+    }
+
+  }
